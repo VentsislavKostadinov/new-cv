@@ -23,6 +23,36 @@
     .w3-display-container > div > h2 {
         margin-top: 20px;
     }
+
+    .w3-third {
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+    }
+
+    .aside-left {
+        display: flex;
+        align-items: flex-start;
+        width: 40%;
+    }
+
+    ul {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .aside-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 60%;
+    }
+
+    .aside-right p {
+        padding: -10px;
+    }
 </style>
 
 <body class="w3-light-grey">
@@ -33,70 +63,69 @@
     <!-- The Grid -->
     <div class="w3-row-padding">
 
-        <!-- Left Column -->
-        <div class="w3-third">
-
-            <div class="w3-white w3-text-grey w3-card-4">
-                <div class="w3-display-container">
-                    <!--<img src="venk.jpg" style="width:60%" alt="img"> -->
-                    <div class="w3-display-bottomleft w3-container w3-text-black">
-
-                    </div>
-                </div>
-                <div class="w3-container">
-                    <!--<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Front end developer</p> -->
-                    <h2>Ventsislav Kostadinov</h2>
-                    <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Walsall, WS5 4EB, United
-                        Kingdom</p>
-                    <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>venkkostadinov89@gmail.com
-                    </p>
-                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+447518666737</p>
-                    <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a
-                            href="https://github.com/VentsislavKostadinov" target="_blank">
-                        https://github.com/VentsislavKostadinov</a></p>
-                    <hr>
-
-                    <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Technologies</b>
-                    </p>
-                    <p>HTML5, CSS3, SCSS/LESS, Bootstrap, JavaScript, React.js,</p>
-                    <p>jQuery/UI, React.js, Selenium/Webdriver, Mocha.js,</p>
-                    <p>Spectron, Detox, Git/GitHub, NPM</p>
-                    <br>
-                    <hr>
-                    <p class="w3-large w3-text-theme"><b><i
-                            class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-                    <p>Bulgarian</p>
-                    <p>English</p>
-                    <hr>
-                </div>
-            </div>
-            <br/>
-
-            <!-- End Left Column -->
-        </div>
-
         <!-- Right Column -->
         <div class="w3-twothird">
+
+            <!-- Left Column -->
+            <div class="w3-third">
+
+                <div>
+                    <div class="w3-container" id="header">
+                        <!--<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Front end developer</p> -->
+                        <div class="aside-left">
+                            <h2>Ventsislav Kostadinov</h2>
+                        </div>
+                        <div class="aside-right">
+                            <ul>
+                                <li><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Walsall, WS5
+                                    4EB,
+                                    United
+                                    Kingdom
+                                </li>
+                                <li><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>venkkostadinov89@gmail.com
+                                </li>
+                                <li><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+447518666737
+                                </li>
+                                <li><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a
+                                        href="https://github.com/VentsislavKostadinov" target="_blank">
+                                    https://github.com/VentsislavKostadinov</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+
+                <!-- End Left Column -->
+            </div>
 
             <div class="w3-container w3-card w3-white w3-margin-bottom">
                 <h2 class="w3-text-grey w3-padding-16"><i
                         class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Summary</h2>
                 <div class="w3-container">
-                    I have been dealing with Freelance Front-end development for three years including one and half
-                    years of
-                    hands-on experience Front-end coding websites and SPA-s and ten months Automation end-to-end
-                    testing.
-                    Building easy to use, user-friendly websites and applications is truly a passion of mine
-                    and I am confident I would be an excellent addition to your company/organization. In addition to my
-                    knowledge base, I actively seek out and use the latest technologies and stay up-to-date on industry
-                    trends
-                    and advancements.
-                    More about me: I am a team player, self-organized, self-motivated and problem solving person.
+                    I have been dealing with Front-end development for two years professionally including one and half
+                    years of hands-on React experience. Also, I have six months Automation end-to-end
+                    testing commercial experience. Building easy to use, user-friendly websites and applications.
+                    Additionally, I actively seek out and use the latest technologies and stay up-to-date on industry
+                    trends and advancements. More about me: I am a team player, self-organized, self-motivated and
+                    problem-solving person.
                 </div>
+                <br/>
+                <p class="w3-text-grey w3-large w3-text-theme"><b><i
+                        class="fa fa-globe fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Languages</b>
+                </p>
+                <ul>
+                    <li>Bulgarian</li>
+                    <li>English</li>
+                </ul>
+                <h2 class="w3-text-grey w3"><i
+                        class="fa fa-asterisk fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Technologies</h2>
+                <ul class="w3-padding-16">
+                    <li>HTML5, CSS3, SCSS/LESS, Bootstrap, JavaScript, React.js,</li>
+                    <li>jQuery/UI, React.js, Selenium/Webdriver, Mocha.js,</li>
+                    <li>Spectron, Detox, Git/GitHub, NPM</li>
+                </ul>
                 <h2 class="w3-text-grey w3-padding-16"><i
                         class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-
-
                 <div class="w3-container">
                     <h5 class="w3-opacity"><b>Front-end Developer</b></h5>
                     <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2021 - ongoing
@@ -108,21 +137,21 @@
                             Selenium, TestNG)
                         </li>
                         <li>Mentoring Graduate Developers and testers how to handle in DOM tree</li>
-                        <li>Covid-19 Self Test application. Tech Stack (React, Redux, React-Router, TypeScript SCSS,.NET, Git, Azure
-                            Dev Ops,
-                            React-Bootstrap, Figma, Agile Methodology).
+                        <li>Covid-19 Self Test application Project: Tech Stack (React, Redux, React-Router, TypeScript
+                            SCSS,.NET, Git, Azure Dev Ops, React-Bootstrap, Figma, Agile/Scrum Methodology).
                             <h6>Responsibilities:</h6>
                             <ul style="list-style: disc">
-                                <li>Developing reusable React components</li>
-                                <li>Creating UI pages according to Figma wireframes</li>
+                                <li>Developing reusable React UI components using Figma wireframes</li>
                                 <li>Using Mobile-first approach for developing the application</li>
-                                <li>Calling REST API requests data from Back-end and displaying it on the Front-end</li>
+                                <li>REST API between Back-and end Front-end</li>
+                                <li>After completing a current task - create pull requests and merging to the main
+                                    branch
+                                </li>
+                                <li>Strict cooperation between the project team</li>
                             </ul>
                         </li>
                     </ul>
                 </div>
-
-
                 <div class="w3-container">
                     <h5 class="w3-opacity"><b>Junior Front-end Developer</b></h5>
                     <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2020 - ongoing
@@ -193,64 +222,6 @@
                     </li>
                 </ul>
                 <hr>
-                <div class="w3-container w3-card w3-white">
-                    <h2 class="w3-text-grey w3-padding-16"><i
-                            class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Demo Projects</h2>
-                    <div class="w3-container">
-                        <h5 class="w3-text-teal"><b><a href="https://ventsislavkostadinov.github.io/amber-recruitment/"
-                                                       target="_blank">
-                            Amber Recruitment - in development</a></b></h5>
-                        <h5 class="w3-opacity"><b>Technologies: React.js, Bootstrap, SCSS, Google Firebase</b></h5>
-                        <hr>
-                    </div>
-                    <div class="w3-container">
-                        <h5 class="w3-text-teal"><b><a href="https://test-c05c4.firebaseapp.com/" target="_blank">
-                            Nova Capital - in development</a></b></h5>
-                        <h5 class="w3-opacity"><b>Technologies: HTML5, SCSS, Bootstrap, JS, jQuery, Google Firebase, e2e
-                            (Selenium/WebDriver, Mocha.js)</b></h5>
-                        <hr>
-                    </div>
-                    <div class="w3-container">
-                        <h5 class="w3-text-teal"><b><a href="https://bit.ly/3e3DJg6" target="_blank">
-                            Ultra Site</a></b></h5>
-                        <h5 class="w3-opacity"><b>Technologies: HTML5, SCSS,
-                            Bootstrap, MD Bootstrap, JS, jQuery</b></h5>
-                        <hr>
-                    </div>
-
-                    <div class="w3-container">
-                        <h5 class="w3-text-teal"><b><a href="https://bit.ly/3aK5YOy" target="_blank">
-                            Colmore O'neil Construction</a></b></h5>
-                        <h5 class="w3-opacity"><b>Technologies: React.js,
-                            React-router, react-parallax, HTML5,
-                            SCSS, jQuery, Bootstrap, Kinvey</b></h5>
-                        <hr>
-                    </div>
-
-                    <div class="w3-container">
-                        <h5 class="w3-text-teal"><b><a href="https://bit.ly/349Rnth" target="_blank">
-                            Ultra Gym</a></b></h5>
-                        <h5 class="w3-opacity"><b>Technologies: HTML5, SCSS, Bootstrap, JS,
-                            jQuery</b></h5>
-                        <hr>
-                    </div>
-
-                    <div class="w3-container">
-                        <h5 class="w3-text-teal"><b><a href="https://bit.ly/347OyJg" target="_blank">
-                            Role4Site</a></b></h5>
-                        <h5 class="w3-opacity"><b>Technologies: HTML5, SCSS, Bootstrap, JS,
-                            jQuery, Kinvey</b></h5>
-                        <hr>
-                    </div>
-
-                    <div class="w3-container">
-                        <h5 class="w3-text-teal"><b><a href="https://bit.ly/3dSksy3" target="_blank">
-                            Luxury Home</a></b></h5>
-                        <h5 class="w3-opacity"><b>Technologies: HTML5, LESS, Bootstrap,
-                            JS, jQuery</b></h5>
-                        <hr>
-                    </div>
-                </div>
                 <div class="w3-container">
                     <hr>
                     <div class="w3-container w3-card w3-white">
